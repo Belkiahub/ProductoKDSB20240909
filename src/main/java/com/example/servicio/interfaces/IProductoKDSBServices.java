@@ -11,7 +11,7 @@ public interface IProductoKDSBServices {
 
     ProductoSalida obtenerPorId(Integer id);
 
-    ProductoSalida crear(ProductoSalida productoSalida);
+    ProductoSalida crear(ProductoGuardar productoGuardar);
 
     ProductoSalida editar(ProductoModificar productoModificar);
 
